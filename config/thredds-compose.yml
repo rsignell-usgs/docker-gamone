@@ -14,7 +14,7 @@ tds-dev:
     - /opt/docker/tds-dev/tomcat/conf/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
     - /opt/docker/tds-dev/thredds/:/usr/local/tomcat/content/thredds
     - /usgs:/usgs 
-    - /clay/usgs:/clay/usgs
+#    - /clay/usgs:/clay/usgs
 
 ###
 # THREDDS Quickstart
