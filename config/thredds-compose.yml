@@ -1,7 +1,7 @@
 ###
 # THREDDS Dev
 ###
-thredds-dev:
+tds-dev:
   image: unidata/thredds-docker:5.0-SNAPSHOT
   ports:
     - "8080:8080"
