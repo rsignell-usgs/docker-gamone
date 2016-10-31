@@ -4,10 +4,10 @@
 thredds-dev:
   image: unidata/thredds-docker:5.0-SNAPSHOT
   ports:
-    - "80:8080"
+    - "8080:8080"
     - "443:8443"
     - "8443:8443"
-  container_name: thredds
+  container_name: tds-dev
   volumes:
     - /opt/docker/tds-dev/tomcat/logs/:/usr/local/tomcat/logs/
     - /opt/docker/tds-dev/thredds/logs/:/usr/local/tomcat/content/thredds/logs/
